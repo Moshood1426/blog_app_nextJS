@@ -8,7 +8,9 @@ import FeaturedPosts from "@/components/home_page/featured-posts";
 export default function HomePage() {
   return (
     <>
-      <main></main>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
