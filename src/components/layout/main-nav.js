@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "./logo";
 import Link from "next/link";
+import classes from "./main-nav.module.css";
 
 const MainNavigation = () => {
   return (
-    <div>
+    <header className={classes.header}>
       <Link href="/">
         <Logo />
       </Link>
@@ -18,7 +19,7 @@ const MainNavigation = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 

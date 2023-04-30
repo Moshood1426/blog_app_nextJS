@@ -8,6 +8,7 @@ export default function HomePage() {
     <>
       <main>
         <Hero />
+        <FeaturedPosts />
       </main>
     </>
   );
